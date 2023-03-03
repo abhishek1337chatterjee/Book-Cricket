@@ -2,6 +2,8 @@ import React from 'react'
 
 export const GamePage = () => {
   return (
-    <div>GamePage</div>
+    <div>
+        <h2>Timer Cricket</h2>
+    </div>
   )
 }
