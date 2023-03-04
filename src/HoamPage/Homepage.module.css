@@ -1,0 +1,51 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Tilt+Warp&display=swap');
+
+ body{
+  background-color: #FED2BA;
+ }
+  .BackgroundImg img{
+    width: 88%;
+    height: 635px;
+    margin-top: 15px;
+    border-radius: 50px;
+  }
+  .Button{
+    position: absolute;
+    left: 570px;
+    top : 310px;
+    padding: 10px 50px;
+    font-size: 50px;
+    border-radius: 10px;
+    border: 3px solid #FFDF2B;
+    color: #D35F53;
+    font-family: 'Tilt Warp', 'cursive';
+  } 
+  .Button:hover{
+    position: absolute;
+    left: 570px;
+    top : 310px;
+    padding: 10px 50px;
+    font-size: 50px;
+    border-radius: 10px;
+    border: 3px solid #FFDF2B;
+    background-color:#FFDF2B;
+    cursor: pointer;
+    color: #D35F53;
+    font-family: 'Tilt Warp', 'cursive';
+  } 
+.loading{
+  position: absolute;
+  left: 570px;
+  top : 280px;
+  font-size: 50px;
+  color: #FFDF2B;
+  font-family: 'Tilt Warp', 'cursive';
+}
+.Setting{
+  position: absolute;
+  left: 100px;
+  color: #D35F53;
+  font-size: 50px;
+  top : 70px;
+}
