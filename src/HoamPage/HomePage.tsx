@@ -2,16 +2,19 @@
 import React, { useEffect, useState } from 'react'
 import Img from "./The (2).png"
 import styles from './Homepage.module.css'
+import {useNavigate}from "react-router-dom"
 import {AiFillSetting} from 'react-icons/ai'
 import { HiSpeakerWave ,HiSpeakerXMark } from 'react-icons/hi2'
 const HomePage:React.FC = () =>
 {    
     const [Loading,setLoading] = useState(false)
     const [Music,setMusic] = useState(true)
+    const navigate=useNavigate();
 
     const handelPaly = () =>
     {
        //redirect to secound Page
+       navigate("/slider")
     }
     const handelMusic = () => setMusic(!Music)
     useEffect(()=>{

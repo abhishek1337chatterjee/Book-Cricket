@@ -1,16 +1,14 @@
-
-
-body{
-    background-color: #FED2BA;
-   }
-.FlagBox{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 88%;
-    height: 635px;
-    border-radius: 50px;
-    background-color: white;
-    margin: auto;
-    margin-top: 15px;
+body {
+  background-color: #fed2ba;
+}
+.FlagBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 88%;
+  height: 635px;
+  border-radius: 50px;
+  background-color: white;
+  margin: auto;
+  margin-top: 15px;
 }
